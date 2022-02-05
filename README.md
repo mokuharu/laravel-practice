@@ -11,6 +11,7 @@ cd /var/www/html/laravel-practice
 composer install
 move .env.example .env
   ※dbの接続設定を修正
+  ※mailの接続設定を修正
 chmod 777 -R storage/
 php artisan key:generate
 php artisan migrate
