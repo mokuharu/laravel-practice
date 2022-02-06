@@ -23,7 +23,7 @@
     <div class="col-4">
       <nav class="row navbar navbar-dark bg-dark">
         <div class="col container-fluid">
-          <a class="navbar-brand" href="#">
+          <a class="navbar-brand" href="/create">
             <ion-icon name="add-circle-outline"></ion-icon>
             Create
           </a>
