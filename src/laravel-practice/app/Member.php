@@ -11,5 +11,5 @@ class Member extends Model
      *
      * @var array
      */
-    protected $fillabel = ['name'];
+    protected $fillabel = ['name', 'profile_img_src'];
 }
