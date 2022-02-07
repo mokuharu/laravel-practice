@@ -11,8 +11,10 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::get('/', 'TopController@getIndex');
+
+Route::get('create', function(){
+    return view('contents.create');
 });
 
 Auth::routes();
