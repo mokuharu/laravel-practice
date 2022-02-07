@@ -11,9 +11,7 @@
 |
 */
 
-Route::get('/', function () {
-    return view('contents.top');
-});
+Route::get('/', 'TopController@getIndex');
 
 Route::get('create', function(){
     return view('contents.create');
