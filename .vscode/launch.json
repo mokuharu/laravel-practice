@@ -8,9 +8,9 @@
       "name": "XDebug on docker",
       "type": "php",
       "request": "launch",
-      "port": 9003,
+      "port": 9000,
       "pathMappings": {
-        "/var/www/html":"C:\\Users\\椿拓也\\OneDrive\\デスクトップ\\work\\laravel-practice\\src\\laravel-practice\\app"
+        "/var/www/html/laravel-practice":"${workspaceRoot}"
       }
     },
     {
