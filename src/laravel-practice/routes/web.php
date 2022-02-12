@@ -17,6 +17,8 @@ Route::get('create', function(){
     return view('contents.create');
 });
 
+Route::get('/list', "PenaltyGameController@list");
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');

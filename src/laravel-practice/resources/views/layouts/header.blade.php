@@ -29,7 +29,7 @@
           </a>
         </div>
         <div class="col container-fluid">
-          <a class="navbar-brand" href="#">
+          <a class="navbar-brand" href="/list">
           <ion-icon name="list-circle-outline"></ion-icon>
             List
           </a>
