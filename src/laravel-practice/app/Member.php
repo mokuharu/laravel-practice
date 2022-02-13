@@ -12,4 +12,8 @@ class Member extends Model
      * @var array
      */
     protected $fillabel = ['name', 'profile_img_src'];
+
+    public function penaltyGames () {
+        return $this->hasMany('\App\PenaltyGame', 'responsible_member_id');
+    }
 }

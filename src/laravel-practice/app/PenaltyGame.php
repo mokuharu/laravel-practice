@@ -12,4 +12,8 @@ class PenaltyGame extends Model
      * @var array
      */
     protected $fillabel = ['name', 'content', 'period', 'resposible_member', 'status'];
+
+    public function members () {
+        return $this->belongsTo('\App\Member', 'responsible_member_id');
+    }
 }
