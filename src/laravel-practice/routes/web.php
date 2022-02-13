@@ -18,6 +18,7 @@ Route::get('create', function(){
 });
 
 Route::get('/list', "PenaltyGameController@list");
+Route::get('/list/{member_id}', 'PenaltyGameController@listByMember');
 
 Auth::routes();
 

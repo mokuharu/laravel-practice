@@ -22,7 +22,7 @@
               <li class="shadow list-group-item">回避券</li>
             </ul>
             <div class="card-body">
-              <a href="#" class="btn btn-outline-primary">Card link</a>
+              <a href="/list/{{$member['id']}}" class="btn btn-outline-primary">罰ゲーム一覧</a>
               <a href="#" class="btn btn-outline-primary">Another link</a>
             </div>
           </div>

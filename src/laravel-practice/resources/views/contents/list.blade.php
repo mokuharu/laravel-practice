@@ -14,19 +14,17 @@
     </tr>
   </thead>
   <tbody>
-
-    @foreach($all_penalty_games as $penalty_game)
+    @foreach($penalty_games as $penalty_game)
     <tr>
-      <th>{{$penalty_game['id']}}</th>
-      <td>{{$penalty_game['name']}}</td>
-      <td>{{$penalty_game['content']}}</td>
-      <td>{{$penalty_game['period']}}</td>
-      <td>{{$penalty_game['resposible_member']}}</td>
-      <td>{{$penalty_game['status']}}</td>
-      <td><a href="{{$penalty_game['video_url']}}" target="_blank" rel="noopener noreferrer">動画のリンク</a></td>
+      <th> {{ $penalty_game['id'] }} </th>
+      <td> {{ $penalty_game['name'] }} </td>
+      <td> {{ $penalty_game['content'] }} </td>
+      <td> {{ $penalty_game['period'] }} </td>
+      <td> {{ $penalty_game['members']['name'] }} </td>
+      <td> {{ $penalty_game['status'] }} </td>
+      <td> {{ $penalty_game['video_url'] }} </td>
     </tr>
     @endforeach
-
   </tbody>
 </table>
 @endsection
