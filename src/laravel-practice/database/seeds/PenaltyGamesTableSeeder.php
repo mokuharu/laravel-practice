@@ -52,7 +52,7 @@ class PenaltyGamesTableSeeder extends Seeder
                     'name' => $penalty_game['name'],
                     'content' => $penalty_game['content'],
                     'period' => $penalty_game['period'],
-                    'resposible_member' => $member['name'],
+                    'resposible_member' => $member['id'],
                     'status' => $penalty_game['status'],
                     'video_url' => $penalty_game['video_url']
                 ]);
